@@ -10,24 +10,36 @@ import { RegisterComponent } from "./register/register.component";
 import { FooterComponent } from "./shared/footer/footer.component";
 import { HeaderComponent } from "./shared/header/header.component";
 import { LoginFormComponent } from "./shared/forms/login-form/login-form.component";
+import { AddShiftComponent } from "./add-shift/add-shift.component";
+import { EditShiftComponent } from "./edit-shift/edit-shift.component";
+import { EditProfileComponent } from "./edit-profile/edit-profile.component";
+import { NotFoundComponent } from "./not-found/not-found.component";
+import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
-	declarations: [
-		AppComponent,
-		LoginComponent,
-		RegisterComponent,
-		FooterComponent,
-		HeaderComponent,
-		LoginFormComponent,
-	],
-	imports: [
-		BrowserModule,
-		HttpClientModule,
-		AppRoutingModule,
-		FormsModule,
-		ReactiveFormsModule,
-	],
-	providers: [],
-	bootstrap: [AppComponent],
+  declarations: [
+    AppComponent,
+    LoginComponent,
+    RegisterComponent,
+    FooterComponent,
+    HeaderComponent,
+    LoginFormComponent,
+    AddShiftComponent,
+    EditShiftComponent,
+    EditProfileComponent,
+    NotFoundComponent,
+    HomeComponent,
+    ProfileComponent,
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
